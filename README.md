@@ -180,4 +180,4 @@ The admissible formats are:
 The provided templates are just suggestions and their structure is _not_ the only admissible one.
 
 [Project Proposals Page]: <https://github.com/gciatto-unibo/sd-project-proposals>
-[Projects Forum]: https://virtuale.unibo.it/mod/forum/view.php?id=331532
+[Projects Forum]: https://virtuale.unibo.it/mod/forum/view.php?id=611834
