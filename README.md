@@ -40,6 +40,13 @@ The reservation post must specify at least:
 4. some strict temporal constraint, if any
     - e.g. someone in the group is going to graduate soon
 
+> We may __reject__ project reservation requests involving projects which have already been reserved/completed by your colleages, either in the current accademic year or in some previous one. So, please double-check your colleagues requests/proposals before submitting your reservation request.
+> Consider having a look to these pages for double-checking:
+> - [APICe SD Projects along the years]
+> - [Projects Forum]
+
+> In case of conflict with some previous project, feel free to submit your reservation request anyway, asking for a _negotiation_ of a similar project.
+
 ## Procedure 2: Proposing a project
 
 Students are allowed – and actually kindly invited – to propose a project by __opening a new conversation__ on the [Projects Forum].
@@ -61,6 +68,13 @@ Proposals must be __explicitly accepted__ by one of the teachers before the stud
 The teachers may also suggest some edits to the proposed project in order for it to be approved.
 
 Acceptance – as well as denials, or suggestions – will be communicated on the same conversation opened by students.
+
+> We may __reject__ project proposals involving projects which have already been reserved/completed by your colleages, either in the current accademic year or in some previous one. So, please double-check your colleagues requests/proposals before submitting your reservation request.
+> Consider having a look to these pages for double-checking:
+> - [APICe SD Projects along the years]
+> - [Projects Forum]
+
+> In case of conflict with some previous project, feel free to submit your proposal anyway, asking for a _negotiation_ of a similar project.
 
 ## Procedure 3: Beginning a project
 
@@ -153,6 +167,10 @@ There are no constraint on the particular build automation system, but keep in m
 
 > It is ok to develop your project in some language different from Java, but in that case it is __your responsibility__ to select the most adequate build automation technology  
 
+Please endow your codebase with adequate __unit test__ suites, possibly runnable with a single command, via the build automation tool of choice.
+
+Setting up a continous integration pipeline running the tests as frequently as possible is strongly encouraged as well.
+
 ## Procedure 5: Project discussion
 
 Students must __explicitly communicate__ to the project supervisor their intention to discuss the project, by adding a new post on the project conversation on the [Projects Forum], and by __attaching the final report__. 
@@ -181,3 +199,4 @@ The provided templates are just suggestions and their structure is _not_ the onl
 
 [Project Proposals Page]: <https://github.com/gciatto-unibo/sd-project-proposals>
 [Projects Forum]: https://virtuale.unibo.it/mod/forum/view.php?id=611834
+[APICe SD Projects along the years]: https://apice.unibo.it/xwiki/bin/view/Courses/SdProjects
