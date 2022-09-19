@@ -1,6 +1,6 @@
 # Projects Rules for the Distributed Systems Course
 
-[Giovanni Ciatto](mailto:giovanni.ciatto@unibo.it), [Andrea Omicini](mailto:andrea.omicini@unibo.it)
+[Giovanni Ciatto](mailto:giovanni.ciatto@unibo.it), [Andrea Omicini](mailto:andrea.omicini@unibo.it), and [Matteo Magnini](mailto:matteo.magnini@unibo.it)
 
 ## Overview
 
@@ -30,7 +30,7 @@ Students – either as individuals or as groups – may reserve a project by __o
 
 _Plase use the following naming convention for conversations:_
 ```
-[Surname1, Surname2, ..., SurnameN] Project reservation|proposal: <brief activity name>
+[Surname1, Surname2, ..., SurnameN] Project reservation: <brief activity name>
 ```
 
 The reservation post must specify at least:
@@ -60,7 +60,7 @@ It is ok to initially provide a raw description of your idea, ask for feedback, 
 
 _Plase use the following naming convention for conversations:_
 ```
-[Surname1, Surname2, ..., SurnameN] Project reservation|proposal: <brief activity name>
+[Surname1, Surname2, ..., SurnameN] Project proposal: <brief activity name>
 ```
 
 Proposals must be __explicitly accepted__ by one of the teachers before the students may proceed with Procedure 3.
@@ -95,10 +95,11 @@ Before actually start working on a project, students will have to:
 
 3. wait for the teachers' approval or suggestions
     - upon approval, teachers will provide:
-        - a GitLab repository for the project
+        - a Git repository for the project
         - an Apice Web page for the project
 
-After receiving a GitLab repository, students can start working on the provided GitLab repository.
+After receiving a Git repository, students can start working at their project.
+Committing and pushing frequently is recommended.
 
 ### About the initial report
 
@@ -133,7 +134,8 @@ This is mandatory in case of a group.
 Students are encouraged to keep track of their design and architectural choices by __progressively__ extending the initial report. 
 They are __discouraged__ from filling the report with (too much) code: the report must track ideas and choices, design and architectures, but the code must NOT be its main content.
 
-Students are encouraged to adopt a __test-driven__ and __model-first__ approach, when possible: they are going to be __engineers__, not programmers
+Students are encouraged to adopt a __test-driven__ and __model-first__ approach, when possible: they are going to be __engineers__, not programmers.
+This means that automatic tests should be designed and written along with interfaces, and __before__ implementation.
 
 > Students are encouraged to exploit [GitLab's "Issues" feature](https://docs.gitlab.com/ee/user/project/issues/) during the development process, in particular when:
 - discussing the implementation of a new idea
@@ -143,7 +145,7 @@ Students are encouraged to adopt a __test-driven__ and __model-first__ approach,
 
 > If an apparently unsolvable technical or organizational problem arises, students are encouraged to first try to solve it autonomously and, in case of failure, ask for help to teachers, either within some GitLab issue (for what concerns technical aspects) on the [Projects Forum].
 
-### About the GitLab repository
+### About the Git repository
 
 Despite not strictly required for the course, please take care of keep your repository clean.
 This involves:
@@ -165,7 +167,7 @@ There are no constraint on the particular build automation system, but keep in m
 - Make for C
 - etc
 
-> It is ok to develop your project in some language different from Java, but in that case it is __your responsibility__ to select the most adequate build automation technology  
+> It is ok to develop your project in some language different from Java, but in that case it is __your responsibility__ to select the most adequate build automation technology .
 
 Please endow your codebase with adequate __unit test__ suites, possibly runnable with a single command, via the build automation tool of choice.
 
@@ -198,5 +200,5 @@ The admissible formats are:
 The provided templates are just suggestions and their structure is _not_ the only admissible one.
 
 [Project Proposals Page]: <https://github.com/gciatto-unibo/sd-project-proposals>
-[Projects Forum]: https://virtuale.unibo.it/mod/forum/view.php?id=611834
+[Projects Forum]: https://virtuale.unibo.it/mod/forum/view.php?id=918628
 [APICe SD Projects along the years]: https://apice.unibo.it/xwiki/bin/view/Courses/SdProjects
